@@ -1,0 +1,888 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* header-section css */
+
+.header-section {
+  width: 100%;
+  background: #f0fff0;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu .navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  margin: 0px 0px 0px 25px;
+  transition: 1s;
+}
+.menu .navbar-nav .nav-item .nav-link:hover,
+.menu .navbar-nav .nav-item .nav-link:focus {
+  color: #21b573;
+}
+
+.menu .navbar-nav .nav-item .btn-success {
+  padding: 8px 20px;
+  border-radius: 35px;
+  margin: 0px 0px 0px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #21b573;
+  border: 1px solid #21b573;
+  transition: 1s;
+}
+
+.menu .navbar-nav .nav-item .btn-success:hover,
+.menu .navbar-nav .nav-item .btn-success:focus {
+  color: #21b573;
+  background: transparent;
+  border: 1px solid #21b573;
+}
+
+.banner {
+  width: 100%;
+  padding: 80px 0px;
+}
+.inner-banner {
+  width: 70%;
+  padding: 40px 30px 0px;
+}
+.banner h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fd511a;
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+  margin: 0px 0px 20px;
+}
+.banner span {
+  color: #21b573;
+}
+.banner p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #000;
+  margin: 0px 0px 25px;
+}
+.inner-banner .btn-success {
+  padding: 12px 40px;
+  border-radius: 35px;
+  margin: 0px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #21b573;
+  border: 1px solid #000;
+  transition: 1s;
+  text-transform: capitalize;
+}
+
+.inner-banner .btn-success:hover {
+  color: #21b573 !important;
+  background: transparent !important;
+  border: 1px solid #21b573 !important;
+}
+.inner-banner .btn-success:focus {
+  color: #21b573 !important;
+  background: transparent !important;
+  border: 1px solid #21b573 !important;
+}
+
+/* feature css */
+
+.feature {
+  width: 100%;
+  padding: 80px 0px;
+}
+.feature .inner-feature {
+  width: 100%;
+  padding: 40px;
+  background: #f8fffb;
+  text-align: center;
+  border-radius: 10px;
+}
+.feature .inner-feature:hover,
+.feature .inner-feature:focus {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+.inner-feature img {
+  width: 70px;
+  height: 85px;
+  margin: 0px 0px 20px;
+}
+.inner-feature h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #413960;
+  margin: 0px;
+}
+.inner-feature p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #585859;
+  margin: 0px;
+}
+/* online section css */
+
+.online-section {
+  width: 100%;
+  padding: 80px 0px;
+}
+.online-section h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #413960;
+  text-transform: capitalize;
+  margin: 0px 0px 60px;
+}
+.online-section .card {
+  padding: 20px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border: 0px solid #fff;
+}
+.online-section .card .card-body .card-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #413960;
+
+  margin: 0px 0px 5px;
+}
+
+.online-section .card .card-body .card-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #585859;
+  margin: 0px 0px 20px;
+}
+
+.online-section .icon-text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #585859;
+  margin: 30px 0px 0px;
+}
+.online-section .text-right {
+  text-align: right;
+}
+.online-section .icon-text .icon {
+  width: 22px;
+}
+.online-section .card .card-body .btn-success {
+  padding: 10px 35px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #21b573;
+  border: 1px solid #21b573;
+  transition: 1s;
+  text-transform: capitalize;
+}
+
+.online-section .card .card-body .btn-success:hover {
+  color: #21b573 !important;
+  background: transparent !important;
+  border: 1px solid #21b573 !important;
+}
+.online-section .card .card-body .btn-success:focus {
+  color: #21b573 !important;
+  background: transparent !important;
+  border: 1px solid #21b573 !important;
+}
+
+/* testimonial css */
+.testimonial {
+  width: 100%;
+  padding: 10px 0px 80px;
+}
+.testimonial h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #413960;
+  text-transform: capitalize;
+  margin: 0px 0px 60px;
+}
+.testimonial img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+.testimonial p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  margin: 20px 0px 0px;
+}
+
+/* footer section css */
+
+.footer {
+  width: 100%;
+  padding: 80px 0px 20px;
+  background: #282531;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.footer-heading {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.footer ul {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+.footer-list-item li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.copyright {
+  width: 100%;
+  padding: 80px 0px 0px;
+}
+
+.copyright p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.copyright a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/***************** **responsive css** ******************/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  /* CSS start */
+
+  .header-section {
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .btn-responsive {
+    margin: 3px 0px -74px -16px;
+  }
+
+  .banner {
+    width: 100%;
+    padding: 80px 0px;
+  }
+  .inner-banner {
+    width: 100%;
+    padding: 40px 30px 0px;
+    text-align: center;
+  }
+  .banner h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fd511a;
+    text-align: center;
+  }
+  .banner h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0px 0px 20px;
+    text-align: center;
+  }
+
+  .banner p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0px -25px 21px;
+    text-align: center;
+  }
+
+  .inner-banner .btn-success {
+    padding: 8px 30px;
+    border-radius: 35px;
+    margin: 0px 0px 21px 0px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .feature {
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+  }
+
+  .feature .inner-feature {
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px 0px;
+  }
+
+  .online-section {
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+    margin: 0px 12px;
+    text-align: center;
+  }
+
+  .online-section h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #413960;
+    text-transform: capitalize;
+    margin: 0px 0px 60px -22px;
+  }
+
+  .online-section .card {
+    padding: 20px;
+    border-radius: 18px;
+    margin: 0px 0px 29px 0px;
+  }
+
+  .online-section .card .card-body .card-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 5px;
+  }
+
+  .online-section .icon-text {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 30px -25px 0px;
+  }
+
+  #testimonial-picture {
+    width: 100%;
+    text-align: center;
+  }
+
+  #testimonial-paragrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .footer-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer ul {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+  }
+
+  /* CSS end */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS start */
+  .header-section {
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .btn-responsive {
+    margin: 3px 0px -74px -16px;
+  }
+
+  .banner {
+    width: 100%;
+    padding: 80px 0px;
+  }
+  .inner-banner {
+    width: 100%;
+    padding: 40px 30px 0px;
+    text-align: center;
+  }
+  .banner h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fd511a;
+    text-align: center;
+  }
+  .banner h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0px 0px 20px;
+    text-align: center;
+  }
+
+  .banner p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0px -25px 21px;
+    text-align: center;
+  }
+
+  .inner-banner .btn-success {
+    padding: 8px 30px;
+    border-radius: 35px;
+    margin: 0px 0px 21px 0px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .feature {
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+  }
+
+  .feature .inner-feature {
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px 0px;
+  }
+
+  .online-section {
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+    margin: 0px 12px;
+    text-align: center;
+  }
+
+  .online-section h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #413960;
+    text-transform: capitalize;
+    margin: 0px 0px 60px -22px;
+  }
+
+  .online-section .card {
+    padding: 20px;
+    border-radius: 18px;
+    margin: 0px 0px 29px 0px;
+  }
+
+  .online-section .card .card-body .card-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 5px;
+  }
+
+  .online-section .icon-text {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 30px -25px 0px;
+  }
+
+  #testimonial-picture {
+    width: 100%;
+    text-align: center;
+  }
+
+  #testimonial-paragrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .footer-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer ul {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+  }
+
+  /* CSS end */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS start */
+  .header-section {
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .btn-responsive {
+    margin: 3px 0px -74px -16px;
+  }
+
+  .banner {
+    width: 100%;
+    padding: 80px 0px;
+  }
+  .inner-banner {
+    width: 100%;
+    padding: 40px 30px 0px;
+    text-align: center;
+  }
+  .banner h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fd511a;
+    text-align: center;
+  }
+  .banner h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0px 0px 20px;
+    text-align: center;
+  }
+
+  .banner p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0px -25px 21px;
+    text-align: center;
+  }
+
+  .inner-banner .btn-success {
+    padding: 8px 30px;
+    border-radius: 35px;
+    margin: 0px 0px 21px 0px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .feature {
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+  }
+
+  .feature .inner-feature {
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px 0px;
+  }
+
+  .online-section {
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+    margin: 0px 12px;
+    text-align: center;
+  }
+
+  .online-section h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #413960;
+    text-transform: capitalize;
+    margin: 0px 0px 60px -22px;
+  }
+
+  .online-section .card {
+    padding: 20px;
+    border-radius: 18px;
+    margin: 0px 0px 29px 0px;
+  }
+
+  .online-section .card .card-body .card-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0px 0px 5px;
+  }
+
+  .online-section .card .card-body .card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #585859;
+    margin: 0px 0px 20px;
+  }
+
+  .online-section .icon-text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 30px 0px 0px;
+  }
+
+  #testimonial-picture {
+    width: 100%;
+    text-align: center;
+  }
+
+  #testimonial-paragrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .footer-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer ul {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+  }
+
+  /* CSS end */
+}
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS start */
+
+  .inner-banner {
+    width: 100%;
+    padding: 40px 30px 0px;
+    text-align: center;
+  }
+
+  .btn-responsive {
+    margin: 3px 0px -74px -16px;
+  }
+
+  .feature .inner-feature {
+    width: 100%;
+    padding: 40px;
+    background: #f8fffb;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .online-section {
+    width: 100%;
+    padding: 0px 0px 80px 0px;
+  }
+
+  .online-section .card {
+    padding: 20px;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: 0px solid #fff;
+    margin: 15px 0px 0px 25px;
+  }
+
+  .footer-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .footer ul {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+  }
+
+  .footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+  }
+  /* CSS end */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS start */
+
+  .inner-banner {
+    width: 84%;
+    padding: 40px 30px 0px;
+  }
+
+  .banner h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    margin: 0px 0px 20px;
+  }
+
+  .banner p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000;
+    margin: 0px 0px 25px;
+  }
+
+  .online-section .icon-text {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #585859;
+    margin: 30px -18px 0px -18px;
+  }
+
+  .card-content {
+    margin: 0 auto !important;
+  }
+
+  /* CSS end */
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS start */
+  .banner p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+    margin: 0px 0px 25px;
+  }
+  /* CSS end */
+}
